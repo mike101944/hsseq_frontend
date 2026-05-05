@@ -1,0 +1,14 @@
+.news-container{
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 10px;
+    box-sizing: border-box;
+  box-shadow: 
+  0 8px 12px rgba(0, 0, 0, 0.2),    
+  -4px 0 8px rgba(0, 0, 0, 0.1),  
+  4px 0 8px rgba(0, 0, 0, 0.1);
+}

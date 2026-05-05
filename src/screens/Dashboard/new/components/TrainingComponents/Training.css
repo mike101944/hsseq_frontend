@@ -1,0 +1,119 @@
+.trainig-container{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.upper-part{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: rgb(54, 107, 153); */
+}
+.upper-part .training-text{
+    font-weight: 800;
+    font-size: 17px;
+    color: #aaacaf;
+
+}
+.upper-part .train-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 800;
+    height: 25px;
+      width: 25px;
+      background: linear-gradient(to top, #a2bbec 50%,#dab9db 50%);
+
+}
+.upper-part .train-icon .icon{
+    font-size: 20px;
+}
+
+.middle-part{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.middle-part .circularProgress-round{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 50px;
+    width: 50px;
+    background-color: #a2bbec;
+    border-radius: 30px;
+    background-image: conic-gradient(
+        red 76deg,
+        blue 0 196deg
+    );
+    
+
+
+}
+
+.middle-part .circularProgress-round::before{
+    position: absolute;
+    content: "";
+    height: 7px;
+    width: 7px;
+    background-color: #646363;
+    border-radius: 20px;
+
+}
+
+
+
+
+
+.middle-part .circularProgress-round2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 50px;
+    width: 50px;
+    background-color: #a2bbec;
+    border-radius: 30px;
+    background-image: conic-gradient(
+        red 76deg,
+        blue 0 196deg
+    );
+    
+
+
+}
+
+.middle-part .circularProgress-round2::before{
+    position: absolute;
+    content: "";
+    height: 43px;
+    width: 43px;
+    background-color: #ffffff;
+    border-radius: 20px;
+ 
+    
+
+
+}
+
+.middle-part .circular-value2{
+    position: absolute;
+    font-weight: 800;
+    color: #666;
+
+}
+
+.lower-part{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}

@@ -1,0 +1,35 @@
+hello HSSEQ application
+const HARDCODED_USERS = [
+  {
+    id: 1,
+    email: 'baraka@gmail.com',
+    password: 'baraka',
+    name: 'System Admin',
+    role: 'admin',
+    token: 'fake-jwt-token-admin-123',
+  },
+  {
+    id: 2,
+    email: 'mike@gmail.com',
+    password: 'mike123',
+    name: 'John Doe',
+    role: 'user',
+    token: 'fake-jwt-token-user-456',
+  },
+  {
+    id: 3,
+    email: 'neema@gmail.com',
+    password: 'mwakagamba',
+    name: 'System Admin',
+    role: 'admin',
+    token: 'fake-jwt-token-admin-123',
+  },
+  {
+    id: 4,
+    email: 'manager@example.com',
+    password: 'manager123',
+    name: 'Jane Smith',
+    role: 'manager',
+    token: 'fake-jwt-token-manager-789',
+  },
+];
