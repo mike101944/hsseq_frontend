@@ -8,12 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  resolve: {
-    alias: {
-      "@": path.resolve(__dirname, "./src"),
-    },
-  }, // Funga resolve hapa
-  server: { // Server iwe hapa nje
-    allowedHosts: ['.ngrok-free.app']
-  }
+ 
 })
