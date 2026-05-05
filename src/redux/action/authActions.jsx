@@ -28,9 +28,9 @@ const HARDCODED_USERS = [
   },
   {
     id: 4,
-    email: 'manager@example.com',
-    password: 'manager123',
-    name: 'Jane Smith',
+    email: 'vicent@gmail.com',
+    password: 'vicent123',
+    name: 'vicent Lorri',
     role: 'manager',
     token: 'fake-jwt-token-manager-789',
   },
